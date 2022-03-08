@@ -24,10 +24,18 @@ header{
     background-color: black;
 }
 .img-wrap img{
-    height: 100%;
+    height: auto;
     width: 100%;
     object-fit: cover;
     opacity: 0.6;
+    animation: rolagem 10s;
+    position: absolute;
+}
+
+@keyframes rolagem {
+        0% {transform: translateY(0px);}
+    
+    100% {transform: translateY(-2.5rem);}
 }
 .banner{
     position: absolute;
