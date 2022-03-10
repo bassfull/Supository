@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400&display=swap');
 
 
-
-h1{
-    color: rgb(255, 255, 255);
-}
-p{
-    color: rgb(255, 255, 255);
-}
 *{
     margin: 0;
     padding: 0%;
@@ -35,20 +28,23 @@ header{
 @keyframes rolagem {
         0% {transform: translateY(0px);}
     
-    100% {transform: translateY(-2.5rem);}
+    50% {transform: translateY(-3rem);}
+    
+    100% {transform: translateY(0px);}
 }
 .banner{
     position: absolute;
     left: 30%;
     top: 30%;
-    text-shadow: 4px 5px 4px black;
-    color: rgb(255, 255, 255);
+    text-shadow: 4px 5px 4px rgb(0, 0, 0);
 }
 
 .banner h1{
       color: rgb(255, 255, 255);
       font-size: 2.5rem;
       font-family: 'Source Code Pro', monospace;
+      animation: opacidade 3s;
+      
 }
 
 .banner p{
@@ -56,5 +52,20 @@ header{
     font-size: 1.5rem;
     font-family: 'Source Code Pro', monospace;
     font-weight: 200;
+    animation: opacidade 3s;
     
+    
+}
+
+@keyframes opacidade {
+    0% {opacity: 0;
+        transform: translateY(0px);
+    }
+    
+    50% {transform: translateY(-1.5rem);}
+    
+    100% { opacity: 1;
+        transform: translateY(0px);
+    }
+
 }
