@@ -6,6 +6,10 @@
     margin: 0;
     padding: 0%;
     list-style: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
 }
 header{
     width: 100%;
@@ -29,18 +33,45 @@ header{
 .fa-code:before {
     content: "\f121";
     text-shadow: 3px 2.5px 3px rgb(0, 0, 0);
+    color: rgb(245, 245, 245);
 }
 
 .topbar{
-    width: 1000vh;
-    height: 4rem;
+    width: 100%;
     background-color: white;
     position: fixed;
     top: 0;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 }
-
-
-
+.lista{
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+.lista-item{
+    
+}
+.lista-link{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1rem;
+    color: rgb(14, 14, 14);
+    padding: 5px;
+    
+}
+.social-media {
+    position: absolute;
+    right: 10%;
+    color: black;
+    display: flex;
+ }
+ .social-media i{
+    color: rgb(14, 14, 14);
+    padding: 0.8rem;
+ }
 
 .img-wrap{
     height: 100%;
@@ -48,7 +79,7 @@ header{
     background-color: black;
 }
 .img-wrap img{
-    height: auto;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     opacity: 0.6;
