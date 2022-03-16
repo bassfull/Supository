@@ -37,19 +37,20 @@ header{
     color: rgb(245, 245, 245);
 }
 .topbar.showmenu{
-    top: -10rem;
+    top: 0;
 }
 .topbar{
     width: 100%;
     height: auto;
     background-color: white;
     position: fixed;
-    top: 0;
+    top: -20rem;
     font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    transition: all 1s;
 }
 .lista{
     display: flex;
