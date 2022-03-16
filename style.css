@@ -30,14 +30,18 @@ header{
    
     
 }
+
 .fa-code:before {
     content: "\f121";
     text-shadow: 3px 2.5px 3px rgb(0, 0, 0);
     color: rgb(245, 245, 245);
 }
-
+.topbar.showmenu{
+    top: -10rem;
+}
 .topbar{
     width: 100%;
+    height: auto;
     background-color: white;
     position: fixed;
     top: 0;
@@ -52,9 +56,6 @@ header{
     padding: 1rem;
     flex-wrap: wrap;
 }
-.lista-item{
-    
-}
 .lista-link{
     font-family: 'Source Code Pro', monospace;
     font-size: 1rem;
@@ -62,17 +63,30 @@ header{
     padding: 5px;
     
 }
+.lista-link:hover{
+    
+    font-size: 1.1rem;
+    color: rgb(14, 14, 14);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    
+}
 .social-media {
     position: absolute;
     right: 10%;
     color: black;
     display: flex;
+    flex-wrap: wrap;
  }
  .social-media i{
-    color: rgb(14, 14, 14);
+    color: rgb(70, 70, 70);
     padding: 0.8rem;
  }
-
+ .social-media i:hover{
+    color: rgb(0, 0, 0);
+    font-size: 1.7rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+ }
+ 
 .img-wrap{
     height: 100%;
     width: 100%;
