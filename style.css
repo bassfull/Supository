@@ -241,14 +241,25 @@ header{
 }
 .card-info h3{
     font-size: 1rem;
+    margin-bottom: 1.5rem;
 }
 .card-info p{
     font-size: 0.8rem;
+    margin-bottom: 1.5rem;
 }
 .card-info button{
     background-color: rgb(59, 59, 59);
     border: none;
     align-items: center;
+    padding: 0.6rem;
+    left: 30%;
+    position: relative;
+    color: white;
+}
+.card-info button:hover{
+    background-color: white;
+    transition: 1s;
+    color: black;
 }
 
 .card-img{
@@ -262,11 +273,44 @@ header{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    top: 0px;
+    top: 0px
 }
 
 .car-img-op{
     position: absolute;
     opacity: 0.2;
 
+}
+.sessao-orcamento {
+}
+.orcamentos{
+    background-color: rgb(156, 146, 146);
+    display: flex;
+    justify-content: center;
+}
+.orcamento{
+    background-color: red;
+    width: 40rem;
+    height: 40rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+}
+.orcamento h1{
+    font-size: 4rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.orcamento p{
+    padding-left: 4rem;
+    height: 4rem;
+}
+.orcamento button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 5rem;
+    font-size: 2.8rem;
+    border: none;
+    background: rgb(204,204,204);
+    background: radial-gradient(circle, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
 }
