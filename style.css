@@ -22,7 +22,6 @@ header{
 .menu{
     color: white;
     font-size: 1.5rem;
-    width: 2rem;
     height: 2rem;
     position: fixed;
     z-index: 100;
@@ -43,7 +42,7 @@ header{
 
 .topbar{
     width: 100%;
-    height: auto;
+    height: 4rem;
     background-color: white;
     position: fixed;
     top: -20rem;
@@ -57,8 +56,8 @@ header{
 
 .lista{
     display: flex;
-    padding: 1rem;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .lista-link{
@@ -186,6 +185,10 @@ header{
     grid-template-rows: repeat(6, 5rem);
     row-gap: 3rem;
     font-size: 0.8rem;
+    
+}
+.conhecimento{
+    object-fit: cover;
 }
 
 .conhecimento:nth-child(1){
@@ -225,6 +228,7 @@ header{
 .projetos{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .card{
     width: 20rem;
@@ -284,33 +288,49 @@ header{
 .sessao-orcamento {
 }
 .orcamentos{
-    background-color: rgb(156, 146, 146);
+    background: rgb(153, 153, 153);
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(207, 207, 207) 100%);
     display: flex;
     justify-content: center;
 }
 .orcamento{
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     width: 40rem;
-    height: 40rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
 }
 .orcamento h1{
     font-size: 4rem;
     padding: 2rem;
     display: flex;
     justify-content: center;
+    text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.26);
+    color: rgb(70, 70, 70);
 }
 .orcamento p{
     padding-left: 4rem;
     height: 4rem;
 }
+.orcamento p:hover{
+    background-color: rgb(212, 212, 212);
+}
 .orcamento button{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30rem;
+    align-content: center;
+    width: 20rem;
     height: 5rem;
     font-size: 2.8rem;
     border: none;
-    background: rgb(204,204,204);
-    background: radial-gradient(circle, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
+    color: rgb(71, 71, 71);
+    background-color: white;
+    align-self: center;
+}
+.orcamento button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(128, 128, 128);
+    transition: all 1s;
+    
 }
