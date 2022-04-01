@@ -311,6 +311,8 @@ header{
 .orcamento p{
     padding-left: 4rem;
     height: 4rem;
+    display: flex;
+    align-items: center;
 }
 .orcamento p:hover{
     background-color: rgb(212, 212, 212);
@@ -333,4 +335,39 @@ header{
     background-color: rgb(128, 128, 128);
     transition: all 1s;
     
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.field{
+    background: transparent;
+    border: none;
+    width: 22rem;
+    font-size: 1rem;
+    border-bottom: rgb(122, 122, 122) dashed 2px;
+    outline: none;
+    align-content: center;
+}
+.input-group{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}.field-label{
+    position: absolute;
+    left: 0;
+    font-size: 1.1rem;
+    transition: 1s;
+}
+.field:focus ~ label{
+    left: -26%;
+
+}
+
+.input-group textarea{
+    max-width: 26rem;
+    max-height: 30rem;
 }
