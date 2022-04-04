@@ -1,4 +1,4 @@
 function Home(){
-    return <div>aa</div>
+    return "index.html"
 }
 export default Home

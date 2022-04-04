@@ -285,8 +285,7 @@ header{
     opacity: 0.2;
 
 }
-.sessao-orcamento {
-}
+
 .orcamentos{
     background: rgb(153, 153, 153);
     background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(207, 207, 207) 100%);
@@ -370,8 +369,4 @@ form{
 .input-group textarea{
     max-width: 26rem;
     max-height: 30rem;
-}
-
-.btn-submit{
-
 }
