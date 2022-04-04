@@ -1,4 +1,5 @@
-function Home(){
-    return "index.html"
+import { get } from "http"
+
+export default function Home (){
+    return(<div>aa</div>)
 }
-export default Home
