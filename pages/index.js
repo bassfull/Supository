@@ -1,5 +1,5 @@
 import { get } from "http"
 
 export default function Home (){
-    return(<div>aa</div>)
+    return(<div>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>)
 }
