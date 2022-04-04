@@ -1,0 +1,25 @@
+{
+  "name": "estudos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bassfull/Supository.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bassfull/Supository/issues"
+  },
+  "homepage": "https://github.com/bassfull/Supository#readme",
+  "dependencies": {
+    "next": "^12.1.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
