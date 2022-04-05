@@ -144,13 +144,10 @@
                 </div>
             </div>
         </section>
-        <section class="sessao-orcamento">
-            <div class="sessao-header">
-                <h1>Orçamentos</h1>
-            </div>
-            <div class="orcamentos">
-                <div class="orcamento">
-                    <h1>Contato</h1>
+        <section class="sessao-contato">
+            <div class="contatos">
+                <div class="contato">
+                    <h1 class="sessao-header">Contato</h1>
                     <form>
                     <div class="input-group">
                         <input type="text" class="field" id="nome">
@@ -169,6 +166,31 @@
                 </div>
             </div>
 
+        </section>
+        <section class="sessao-orcamento">
+            <div class="sessao-header">
+            <h1>Orçamento</h1>
+            </div>
+            <form >
+                <label for="qtd">Qtd de Páginas</label>
+                <input type="text" name="qtd" id="qtd">
+                <label for="js">Preciso de um script JS</label>
+                <input type="checkbox" name="js" id="js">
+                <label for="">Layout</label>
+                <div class="group-layout">
+                    <div>
+                        <input type="radio" name="layout" id="layout-sim">
+                        <label for="layout-sim"> Preciso de um Layout</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="layout" id="layout-nao">
+                        <label for="layout-nao">Já tenho um Layout</label>
+                    </div>
+                </div>
+                <label for="prazo">Prazo</label>
+                <input type="range" name="prazo"    id="prazo">
+                <button class="btn" type="submit">Enviar</button>
+            </form>
         </section>
     </div>
 </body>
