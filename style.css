@@ -161,7 +161,7 @@ header{
 .sessao-header{
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.26); 
 }
 
@@ -234,7 +234,7 @@ header{
     align-items: center;
 }
 .card{
-    width: 30rem;
+    width: 25rem;
     height: 45rem;
     border-radius: 5px;
     position: relative;
@@ -305,12 +305,9 @@ header{
     flex-direction: column;
 }
 .contato h1{
-    font-size: 4rem;
     padding: 2rem;
     display: flex;
     justify-content: center;
-    text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.26);
-    color: rgb(70, 70, 70);
     border-bottom: 4rem;
 }
 .contato p{
@@ -380,4 +377,51 @@ form{
 .sessao-orcamento{
     background: rgb(204,204,204);
     background: radial-gradient(circle, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
+    height: 100vh;
+}
+
+.btn{
+    background-color: rgb(59, 59, 59);
+    border: none;
+    align-items: center;
+    padding: 0.6rem;
+    color: white;
+
+}
+
+.btn:hover{
+    background-color: white;
+    transition: 1s;
+    color: black;
+}
+
+.f-form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+.f-form label{
+    font-size: 1.5rem;
+
+}
+.f-form input[type="number"]{
+    width: 3rem;
+    height: 2rem;
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    background: transparent;
+    border: solid 1px;
+    outline: none;
+    align-content: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.39);
+}
+.f-form input{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.f-form input[type="range"]{
+    width: 20rem;
 }
