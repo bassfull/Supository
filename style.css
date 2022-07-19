@@ -424,4 +424,5 @@ form{
 }
 .f-form input[type="range"]{
     width: 20rem;
+    transition: all 2s;
 }
