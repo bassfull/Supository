@@ -18,16 +18,16 @@ function updateTextInput(val) {
 }
 
 function orcamento() {
-  let groupLayout = 0;
-  qtdPaginas = document.querySelector(".qtdPaginas").value;
-  textInput = document.querySelector("#textInput").value;
   if (document.querySelector("#layout-nao").value == "on") {
-    groupLayout = 500;
+    var groupLayout = 0;
   }
-  valorDias = qtdPaginas * 100;
-  (valorOrcamento = valorDias++), textInput++, groupLayout;
+  else {
+    groupLayout = 500
+  }
+  valorPaginas = document.querySelector(".qtdPaginas").value * 80
+  valorDias = document.getElementById("ranger").value * 120;
+  valorOrcamento = valorDias + valorPaginas+ groupLayout;
   return valorOrcamento;
 }
 
-console.log(document.querySelector("#layout-sim").value);
 console.log(orcamento());
