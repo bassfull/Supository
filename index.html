@@ -173,10 +173,10 @@
             <div class="sessao-header">
             <h1>Orçamento()</h1>
             </div>
-            <form >
+            <form action="" >
                 <div class="f-form">
                  <label for="qtd" >Qtd de Páginas</label>
-                 <input type="number" min="1" name="qtd" id="qtd">
+                 <input type="number" min="1" name="qtd" id="qtd" class="qtdPaginas">
                  <label for="">Layout</label>
                  <div class="group-layout">
                       <div>
@@ -184,14 +184,14 @@
                           <label for="layout-sim"> Preciso de um Layout</label>
                       </div>
                       <div>
-                         <input type="radio" name="layout" id="layout-nao">
+                         <input type="radio" name="layout" id="layout-nao" checked>
                          <label for="layout-nao">Já tenho um Layout</label>
                      </div>
                 </div>
-                    <label for="prazo">Prazo</label>
-                    <label for="prazo" id="textInput"> Dias</label>
-                    <input id="ranger" type="range" name="prazo"  onchange="updateTextInput(this.value);"  id="prazo">
-                    <button class="btn" type="submit">Enviar</button>
+                <label for="prazo">Prazo</label>
+                <label for="prazo" id="textInput"> Dias</label>
+                <input id="ranger" type="range" name="prazo"  onchange="updateTextInput(this.value);"  id="prazo">
+                <button class="btn" type="submit">Enviar</button>
                 </div>
             </form>
         </section>
