@@ -40,6 +40,13 @@
                 <a href="#"><i class="fab fa-facebook"></i></a>
             </div>
         </nav> 
+
+        <div class="orcamento-resultado">
+            <h2>Seu orçamento sairá por:</h2>
+            <h2 id="resultado"></h2>  
+        </div> 
+
+
         <section class="sessao-conhecimentos">
             <div class="sessao-header">
                 <h1>Conhecimentos[]</h1>
@@ -191,10 +198,14 @@
                 <label for="prazo">Prazo</label>
                 <label for="prazo" id="textInput"> Dias</label>
                 <input id="ranger" type="range" name="prazo"  onchange="updateTextInput(this.value);"  id="prazo">
-                <button class="btn" type="submit">Enviar</button>
-                </div>
-            </form>
-        </section>
+            </div>
+        </form>
+        <div id="btn">        
+        <button class="btn" type="submit">Enviar</button>
+        </div>
+    </section>
+
+
     </div>
 </body>
 <script src="script.js"></script>
